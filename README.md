@@ -74,14 +74,17 @@ The weights and probability structure for this demand distribution were a core p
 
 ## Repository Structure
 
-├── demand-pricing-1
-  ├── create_model.ipynb       # Decision Tree + Logistic Regression
-  ├── pricing_agent.py         # Price optimization + DP industry constrained pricing
-├── demand-pricing-2
-  ├── create_model.ipynb       # XGBoost training pipeline
-  ├── pricing_agent.py         # Competition pricing agent (Kalman Filter + DP)
+```
+├── part-1-pricing/
+│   ├── create_model.ipynb       # Decision Tree + Logistic Regression pipeline
+│   └── pricing_agent.py         # Price optimization + inventory-constrained DP
+├── part-2-competition/
+│   ├── create_model.ipynb       # XGBoost training pipeline
+│   └── pricing_agent.py         # Competition agent (Kalman Filter + DP)
 └── README.md
+```
 
 ## Team
 
 Anderson Lo, Tiffany Yu, Jay Huang, and Kai Zuang — Cornell Tech ORIE 5355, 2025.
+
