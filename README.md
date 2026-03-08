@@ -4,10 +4,6 @@ A machine learning pipeline for customer demand estimation and revenue-maximizin
 
 Built for Cornell Tech's Applied Data Science course (ORIE 5355).
 
-## Team
-
-Built collaboratively with Anderson Lo, Jay Huang, and Kai Zuang 
-
 ---
 
 ## Overview
@@ -75,6 +71,16 @@ The weights and probability structure for this demand distribution were a core p
 > **Note:** Training data is not included as it is course property.
 
 ---
+
+## Repository Structure
+
+├── demand-pricing-1
+  ├── create_model.ipynb       # Decision Tree + Logistic Regression
+  ├── pricing_agent.py         # Price optimization + DP industry constrained pricing
+├── demand-pricing-2
+  ├── create_model.ipynb       # XGBoost training pipeline
+  ├── pricing_agent.py         # Competition pricing agent (Kalman Filter + DP)
+└── README.md
 
 ## Team
 
